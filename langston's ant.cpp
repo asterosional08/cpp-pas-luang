@@ -5,9 +5,7 @@ using namespace std;
 int main(){
     short M, N, steps, direction=0; cin >> M >> N >> steps;
     vector<vector<bool>> field(N, vector<bool>(M, true));
-
-
-
+    
     short xnow=M/2, ynow=N/2;
 
     for(int i=0; i<steps; i++){
